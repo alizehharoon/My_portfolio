@@ -1,24 +1,27 @@
+.body {
+  background-image: url(/head.png);
+  padding: 114px 24px;
+}
+
+
 .container {
   max-width: 375px;
-  padding: 10px;
+ height: 92px;
 }
 
 .toolbar {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   background-color: #fff;
   color: #000;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .logo {
-  width: hug (100px);
-  height: hug (40px);
-  top: 4px;
-  left: 12px;
-  padding: 10px, 12px, 10px, 12px;
-  font-family: Poppins;
+  width: 100px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -27,16 +30,56 @@
   color: #6070ff;
 }
 
-/* Styling for the hamburger button */
+
 .hamburger {
   flex-direction: column;
   cursor: pointer;
 }
 
 .hamburger div {
-  width: 20px; /* Reduce width to fit */
-  height: 2px; /* Adjust height */
+  width: 20px;
+  height: 2px;
   background-color: #6070ff;
   margin: 3px 0;
   border-radius: 2px;
-};
+}
+
+
+.headline{
+  width: Hug (375px);
+height: Hug (604px);
+margin-top: -20px;
+}
+
+.primaryHeadline {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172B4D;
+  
+}
+
+.content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+}
+
+.endtext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7F8CFF;
+  gap: 8px;
+  margin-top: 20px;
+}
