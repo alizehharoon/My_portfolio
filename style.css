@@ -3,10 +3,9 @@
   padding: 114px 24px;
 }
 
-
 .container {
   max-width: 375px;
- height: 92px;
+  height: 92px;
 }
 
 .toolbar {
@@ -30,7 +29,6 @@
   color: #6070ff;
 }
 
-
 .hamburger {
   flex-direction: column;
   cursor: pointer;
@@ -44,11 +42,10 @@
   border-radius: 2px;
 }
 
-
-.headline{
-  width: Hug (375px);
-height: Hug (604px);
-margin-top: -20px;
+.headline {
+  width: hug (375px);
+  height: hug (604px);
+  margin-top: -20px;
 }
 
 .primaryHeadline {
@@ -56,10 +53,9 @@ margin-top: -20px;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #172B4D;
-  
+  color: #172b4d;
 }
 
 .content {
@@ -67,7 +63,7 @@ margin-top: -20px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
 }
@@ -77,9 +73,9 @@ margin-top: -20px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #7F8CFF;
+  color: #7f8cff;
   gap: 8px;
   margin-top: 20px;
 }
