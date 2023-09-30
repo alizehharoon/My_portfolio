@@ -416,12 +416,26 @@
   width: 375px;
   height: 795px;
   top: 5410px;
-  background-image: url(/shape.png),url(/contact.jpg);
-  background-size:  265px 709.17px  , cover; 
-  background-position: right center, center center;
-  background-repeat: no-repeat, repeat;
-  
+.contact-container {
+  background-color: #6070FF;
+  background-image: url(/shape.png), url(/contact.jpg), url(/shapes.png), url(/Contact\ me.jpg);
+  background-size: 265px 709.17px, cover, 265px 709.17px, cover;
+  background-position: right center, center center, right, center center;
+  background-repeat: no-repeat, repeat, no-repeat, repeat;
 }
+
+.contact {
+  color: #FFFFFF;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -195px;
+  top: 4802px;
+}
+
 .contact-section{
   width: 375px;
   top: 4802px;
@@ -440,6 +454,7 @@
   top: 4802px;
   padding: 125px 10px;
 }
+
 .maintext{
   font-family: 'Poppins',sans-serif;
 font-size: 20px;
@@ -514,6 +529,4 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF);
   text-align: left;
   color: rgba(57, 109, 242, 1);
   white-space: nowrap;
-}
-
-  
+  }
