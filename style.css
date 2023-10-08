@@ -234,29 +234,12 @@
   }
 }
 
-.endtext {
-  font-family: 'Poppins', sans-serif;
-  color: #7f8cff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
-  margin-left: 100px;
-  margin-top: 20px;
-}
-
 .endtext1 {
   font-family: 'Poppins', sans-serif;
   color: #7f8cff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
-  margin-left: 150px;
-  margin-top: 20px;
 }
+
+
 
 @media (min-width: 768px) {
   .endtext {
@@ -594,7 +577,7 @@ li span {
 }
 
 .contactcontainer {
-  width: 1440px;
+  width: 1300px;
   top: 5500px;
   height: auto;
   background-image: url(/shapesback.png), url(/contactback.png);
