@@ -62,7 +62,7 @@
 }
 
 .hamburger div {
-  width: 20px; 
+  width: 20px;
   height: 2px;
   background-color: rgba(96, 112, 255, 1);
   margin: 3px 0;
@@ -112,7 +112,7 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; 
+  line-height: 20px;
 }
 
 .toolbar {
@@ -163,8 +163,6 @@
   margin-top: 60px;
   margin-left: 10px;
   font-family: 'Poppins', sans-serif;
-
-
   height: 150px;
   color: rgba(23, 43, 77, 1);
   display: flex;
@@ -241,7 +239,7 @@
 
 .icon {
   font-size: 24px;
-  margin: 0 5px; 
+  margin: 0 5px;
   color: rgba(80, 95, 121, 1);
   text-decoration: none;
 }
@@ -278,8 +276,8 @@
 }
 
 .snapshot {
-  max-width: 100%; 
-  height: auto; 
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -337,16 +335,15 @@
   background-color: #4053fc;
 }
 
-
 @media (max-width: 768px) {
   .card {
-    flex-direction: column; 
-    height: auto; 
+    flex-direction: column;
+    height: auto;
   }
 
   .imagecontainer,
   .Block {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }
 
@@ -499,9 +496,8 @@ li span {
 }
 
 .skill-set {
-  order: 2; 
+  order: 2;
 }
-
 
 @media (min-width: 768px) {
   .about-me {
@@ -520,13 +516,13 @@ li span {
 }
 
 .langlist {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .frame2 {
-  flex: 0 0 calc(33.33% - 20px); 
+  flex: 0 0 calc(33.33% - 20px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -536,7 +532,7 @@ li span {
   height: 100px;
   padding: 12px, 12px, 20px, 12px;
   border-radius: 8px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .image {
@@ -547,7 +543,7 @@ li span {
 }
 
 .langtext {
-  margin-top: 0.5rem; 
+  margin-top: 0.5rem;
 }
 
 .contactcontainer {
@@ -558,8 +554,8 @@ li span {
   background-size: cover;
   background-position: cover, top left;
   background-repeat: no-repeat, repeat;
-  padding: 0; 
-  text-align: center; 
+  padding: 0;
+  text-align: center;
 }
 
 .contact {
@@ -588,7 +584,7 @@ li span {
   letter-spacing: 0;
   color: #ebebff;
   margin-top: 20px;
-  text-align: center; 
+  text-align: center;
 }
 
 .forminput,
@@ -603,13 +599,13 @@ li span {
 
 .forminput,
 .textarea {
-  height: 48px; 
+  height: 48px;
   border-radius: 6px;
   border: 1px solid rgba(207, 216, 220, 1);
   background-color:
     linear-gradient(0deg, #cfd8dc, #cfd8dc),
     linear-gradient(0deg, #fff, #fff);
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .line2 {
@@ -659,9 +655,8 @@ li span {
 }
 
 @media screen and (max-width: 480px) {
- 
   .contactcontainer {
-    width: 100%; 
+    width: 100%;
     padding: 0 10px;
   }
 
@@ -670,19 +665,19 @@ li span {
   }
 
   .contact-section {
-    max-width: 100%; 
-    margin-top: 30px; 
+    max-width: 100%;
+    margin-top: 30px;
   }
 
   .maintext {
-    font-size: 16px; 
+    font-size: 16px;
   }
 
   .forminput,
   .textarea,
   .lastbutton {
-    width: 100%; 
-    max-width: 100%; 
+    width: 100%;
+    max-width: 100%;
   }
 }
 
