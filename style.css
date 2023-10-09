@@ -1,8 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .container {
   max-width: 1440px;
   height: 846px;
   gap: 12px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
@@ -547,7 +555,6 @@ li span {
 }
 
 .contactcontainer {
-  width: 1300px;
   top: 5500px;
   height: auto;
   background-image: url(shapesback.png), url(contactback.png);
