@@ -1,8 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .container {
   max-width: 1440px;
   height: 846px;
   gap: 12px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
@@ -12,7 +20,7 @@
 }
 
 .background {
-  background-image: url('./back.png');
+  background-image: url('back.png');
   background-size: contain;
   height: 587.15px;
   border: 1px solid rgb(252, 252, 252);
@@ -20,7 +28,7 @@
 
 @media (min-width: 768px) {
   .background {
-    background-image: url('./headerback.png');
+    background-image: url('headerback.png');
     background-size: cover;
     width: 1397.4px;
     height: 721.46px;
@@ -547,10 +555,9 @@ li span {
 }
 
 .contactcontainer {
-  width: 1300px;
   top: 5500px;
   height: auto;
-  background-image: url(./shapesback.png), url(./contactback.png);
+  background-image: url(shapesback.png), url(contactback.png);
   background-size: cover;
   background-position: cover, top left;
   background-repeat: no-repeat, repeat;
