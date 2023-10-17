@@ -190,7 +190,9 @@ body {
     color: rgba(9, 30, 66, 1);
   }
 }
-
+.content-wrapper{
+  margin-left: 20px;
+}
 .content {
   display: flex;
   margin-left: 10px;
@@ -325,6 +327,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: rgba(57, 109, 242, 1);
+  margin-bottom: 80px;
 }
 
 .buttontext {
